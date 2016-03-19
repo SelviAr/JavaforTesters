@@ -63,9 +63,16 @@ public class Calculator {
 		return a * b;
 	}
 	
-	public int Divide(int a, int b){
+	public int Divide(int a, int b) throws ZeroDivisionException{
+	
+	 try {
 		return a / b;
+	     } catch (ZeroDivisionException e) {	
+	     	System.out.println(e.getMessage());
+	     }
 	}
+  }
+
 }
 ```
 
@@ -219,7 +226,7 @@ private String name;
 ```java
 String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
-//for loop
+//foreach loop
 for(String workday : workdays){
 System.out.println(workday); 
 }
