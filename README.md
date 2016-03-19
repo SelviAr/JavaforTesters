@@ -96,25 +96,36 @@ public class AdvancedCalculator extends Calculator  {
 
 ```java
 
+package com.selvenium.web;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
 public class TestCalculator {
 	
 	AdvancedCalculator advCalc;
 	
+	@BeforeTest
 	public void setup(){
 		advCalc = new AdvancedCalculator();
 	}
 	
+	@Test
 	public void TestAdd(){
 		Assert.assertEquals(advCalc.Add(10, 5), 15);
 	}
 	
+	@Test
 	public void TestPIValue(){
 		Assert.assertEquals(advCalc.GetPI(), 3.50);
 	}
 	
+	@Test
 	public void TestSqRoot(){
 		Assert.assertEquals(advCalc.SqureRoot(10), 100);
 	}
 }
+
 
 ```
