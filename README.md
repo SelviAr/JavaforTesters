@@ -43,3 +43,78 @@ public class ForTesters {
 }
 ```
 
+
+### Calculator Class
+
+```java
+//Class Calculator provides addition, subtraction, division and multiplication functionality
+public class Calculator {
+
+	public int Add(int a, int b){
+		int c = a + b;
+		return c;
+	}
+	
+	public int Subtract(int a, int b){
+		return a - b;
+	}
+	
+	public int Multiply(int a, int b){
+		return a * b;
+	}
+	
+	public int Divide(int a, int b){
+		return a / b;
+	}
+}
+```
+
+
+### Calculator Class
+
+```java
+//Class AdvancedCalculator extends Calculator
+//Advanced Calculator provides SqureRoot, PI value and also addition, subtraction, division and multiplication functionality
+public class AdvancedCalculator extends Calculator  {
+
+	public int SqureRoot(int a){
+		int c = a * a;
+		return c;
+	}
+	
+	public double GetPI(){
+		return 3.14;
+	}
+}
+
+```
+
+
+
+
+### Test Advanced Calculator Class
+
+```java
+
+public class TestCalculator {
+	
+	AdvancedCalculator advCalc;
+	
+	public void setup(){
+		advCalc = new AdvancedCalculator();
+	}
+	
+	public void TestAdd(){
+		Assert.assertEquals(advCalc.Add(10, 5), 15);
+	}
+	
+	public void TestPIValue(){
+		Assert.assertEquals(advCalc.GetPI(), 3.50);
+	}
+	
+	public void TestSqRoot(){
+		Assert.assertEquals(advCalc.SqureRoot(10), 100);
+	}
+}
+
+```
