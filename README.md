@@ -129,3 +129,27 @@ public class TestCalculator {
 
 
 ```
+
+
+## Data Type
+
+```java
+
+
+//Integer
+int age = 1;
+byte maxAge = 100;
+short s = 10000;
+long creditCardNumber = 1234_5678_9012_3456L;
+
+//Floating-Point Literals
+double d1 = 123.4;
+double d2 = 1.234e2;	// same value as d1, but in scientific notation
+float f1  = 123.4f;
+
+boolean isApproved = true;
+char capitalS = 'S';
+
+String myName = "Selvi";
+
+```
