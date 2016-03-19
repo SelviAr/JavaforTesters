@@ -152,6 +152,23 @@ char capitalS = 'S';
 
 String myName = "Selvi";
 
+//Data Type
+String $aString="bob";
+float £owed=10F;
+int aMount=4;
+long Amount=5;
+String A0123456789bCd$f="ugh";
+boolean truthy = true;
+boolean falsey = false;
+byte range: -128 to 127
+short range: -32768 to 32767
+int range: -2147483648 to 2147483647
+long range: -9223372036854775808 to 9223372036854775807
+
+float singlePrecision32bit;
+double doublePrecision64bit;
+
+
 ```
 
 
