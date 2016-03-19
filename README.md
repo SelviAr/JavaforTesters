@@ -185,6 +185,92 @@ private String name;
 	
 	
 	
+## if conditions
+
+```java
+//if conditions
+	int mynumber = 999;
+	
+	if (mynumber == 999) {
+	    System.out.println("this is lucky nymber");
+	}
+
+	//if then else conditions
+	if (a >= b) {
+		System.out.println("a is greater than b");
+	} else {
+		System.out.println("b is greater than a");
+	}
+
+
+	//if then else if conditions
+	if (a >= b) {
+		System.out.println("a is greater than b");
+	} else if (b >= c) {
+		System.out.println("b is greater than c");
+	}
+		
+```
+
+
+
+## for loop
+
+```java
+String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
+
+//for loop
+for(String workday : workdays){
+System.out.println(workday); 
+}
+
+//for loop with index 		
+for(int i=0; i<5; i++){
+System.out.println(workdays[i]); 
+}
+		
+```
+
+## while loop
+
+```java
+int i = 0;
+ 
+while (i < 3) {
+	System.out.println(i);
+	i++;
+}
+
+```
+
+## do while loop
+
+```java
+int i = 0;
+    do {
+      System.out.println(i);
+      i++;
+    } while (i < 3);
+```
+
+## Test
+
+```java
+
+```
+
+## Test
+
+```java
+
+```
+
+## Test
+
+```java
+
+```
+
 ## Test
 
 ```java
