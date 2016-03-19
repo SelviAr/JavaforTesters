@@ -153,3 +153,23 @@ char capitalS = 'S';
 String myName = "Selvi";
 
 ```
+
+
+## Field Access
+
+```java
+public static final String CONSTANT = "a constant string";
+public static String aClassField = "a class field";
+protected static String proField = "a class field";
+public String pubField = "a public field";
+private String privField = "a private field";
+private String name;
+```
+	
+	
+	
+## Test
+
+```java
+
+```
