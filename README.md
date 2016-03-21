@@ -224,6 +224,7 @@ private String name;
 ## for loop
 
 ```java
+// Collection-Based For Loop
 String[] workdays = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"};
 
 //foreach loop
@@ -286,19 +287,19 @@ public int getAge(int age, int status){
 
 ```
 
-## Test
+## Array
 
 ```java
 
 ```
 
-## Test
+## Switch
 
 ```java
 
 ```
 
-## Test
+## Collection
 
 ```java
 
