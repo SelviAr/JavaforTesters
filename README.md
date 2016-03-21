@@ -260,9 +260,29 @@ int i = 0;
     } while (i < 3);
 ```
 
-## Test
+## Methods
 
 ```java
+
+public void getAge(){
+
+}
+
+
+public void getAge(int age){
+
+}
+
+
+public void getAge(int age, int status){
+
+}
+
+
+public int getAge(int age, int status){
+
+}
+
 
 ```
 
