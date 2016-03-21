@@ -3,8 +3,8 @@
 
 ##Table of Contents
 
-- [Download Driver](#Driver-Download)
-- [WebDriver](#setup)
+- [Class](#Class)
+- [Data Type](#data-type)
 
 
 ```java
@@ -43,6 +43,7 @@ public class ForTesters {
 }
 ```
 
+## Class
 
 ### Calculator Class
 
