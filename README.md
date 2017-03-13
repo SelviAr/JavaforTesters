@@ -1,5 +1,6 @@
 # JavaforTesters
 
+http://www.seleniumeasy.com/java-tutorials
 
 ##Table of Contents
 
